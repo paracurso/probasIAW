@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="resources/estilos/estilo_pag_usuario.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+		<title>Distribuidora de Café</title>
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<a href="login.html" class="login">Login</a>
+			</div>
+			<img class="logopeque" src="resources/images/logo_small.jpg" alt="DistriCAFÉ">
+		</header>
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="configurador.html">Configura tu café</a>
+			<a href="sobrenosotros.html">Sobre nosotros</a>
+			<a href="contacto.html">Contacto</a>
+		</nav>
+		<main>
+			<section>
+				<h1>Gestiona tus datos</h1>
+				<form action="localhost" method="post">
+
+					<h4>¿Quieres cambiar tu contraseña?</h4>
+					<div>
+						<label for="contrasena">Tu nueva contraseña: </label>
+						<input type="password" name="contrasena" id="contrasena" size="20" >
+						<br>
+						<label for="n_contrasena">Repite tu contraseña: </label>
+						<input type="password" name="n_contrasena" id="n_contrasena" size="20" >
+					</div>
+
+					<h4>Tus datos personales</h4>
+					<div>
+						<label for="name-contacto">Nombre: </label>
+						<input type="text" name="name-contacto" id="name-contacto"  maxlength="25" size="20">
+					</div>
+					<div>
+						<label for="name-apellidos">Apellidos: </label>
+						<input type="text" name="name-apellidos" id="name-apellidos"  maxlength="50" size="20">
+					</div>
+					<div>
+						<label for="name-movil">Móvil: </label>
+						<input type="text" name="name-movil" id="name-movil" maxlength="25" size="20" >
+					</div>
+					<div>
+						<label for="mail-contacto">Email: </label>
+						<input type="email" name="mail-contacto" id="mail-contacto">
+					</div>
+				
+					<div>
+						<h4>Dirección</h4>
+						<label for="name-calle">Calle </label>
+						<input name="name-calle" id="name-calle" size="30" maxlength="1500" ></input>
+
+						<label for="num-calle">Número: </label>
+						<input type="text" name="num-calle" id="num-calle"  maxlength="4" size="4">
+
+						<label for="cod-postal">CP: </label>
+						<input type="text" name="cod-postal" id="cod-postal"  maxlength="5" size="5">
+
+						<label for="name-poblacion">Población: </label>
+						<input type="text" name="name-poblacion" id="name-poblacion"  maxlength="25" size="15">
+
+						<label for="name-provincia">Provincia: </label>
+						<input type="text" name="name-provincia" id="name-provincia"  maxlength="25" size="15">
+					</div>
+				
+					<!-- <div><input type="submit" value="Enviar"></div> -->
+				</br>
+					<a class="enviar" href="#">Enviar</a>
+					</form>
+					
+					
+				</form>
+			</section>
+
+		</main>
+		<footer>
+			<span>Proyecto IAW 2022-2023</span>
+			<span>Gabriel Vega & Carolina Patiño</span>
+		</footer>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

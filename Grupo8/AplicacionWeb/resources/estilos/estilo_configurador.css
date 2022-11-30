@@ -1,0 +1,214 @@
+/* Fondo de pantalla */
+html{
+  background-image: url("../images/background_cafe.png");
+  background-size: auto;
+}
+
+
+/* Body */
+body {
+  font-family: 'Merriweather', serif;
+}
+
+/*Encabezados*/
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Header */
+header{
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+
+.login{
+  justify-content: right;
+  margin-right: 0;
+  float: right;
+  width: 70px;
+  text-align: center;
+}
+
+.logopeque{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+/* Main */
+main{
+  margin: 10px; /*Separa el nav del main*/
+  padding: 1%; /*Separa el main de las esquinas de la ventana*/
+  background-color: chocolate; 
+}
+
+
+/* Diseña la cinta con las categorías */
+.padre_categorias {
+  display: flex;
+  justify-content: space-around;
+}
+
+div > a.categoria{
+  width: 15%;
+  padding: 8px;
+  background: brown;
+  color: white;
+  text-align: center;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+ }
+/* Hasta aquí el diseño de la cinta con las categorías */
+
+select{
+  background-color: brown;
+  color: white;
+}
+
+/* Diseño de la etiqueta del producto */
+#lista_productos .producto a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background: brown;
+	color: white;
+	text-align: center;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+section#lista_productos{
+  display: flex;
+  padding: 5%;
+}
+/* Hasta aquí el diseño de la etiqueta del producto */
+
+/* Enlaces*/
+a:link {
+  text-decoration: none;
+  color: chocolate;
+  background-color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: brown;
+  background-color: white;
+}
+
+/* Gestiona la separación entre productos */
+.producto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+  margin: 3%;
+  
+}
+
+.producto img{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.producto a {
+  width: 300px;
+  background-color: brown;
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 4px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  text-decoration: none;
+}
+
+/* Coloca los productos del section */
+#lista_productos{
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+/*Párrafos*/
+p {
+  text-indent: 3vw;
+  text-align: justify;
+  margin: 2%;
+}
+
+
+/*Footer*/
+footer {
+  color: brown;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  /* position:absolute;
+  margin-bottom: 15px;
+  width: 97%; */
+  align-items: flex-end;
+}
+
+
+/* Navegación */
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a{
+  font: 1.2em bold;
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/*Enlaces*/
+
+.contact:link{
+  font-style: oblique;
+  color: antiquewhite;
+  background-color: chocolate;
+  }
+  .contact:link{
+    color: aquamarine;
+    background-color: chocolate;
+  }
+  .contact:hover{
+  color: crimson;
+  background-color: aquamarine;
+  
+  }
+ 
+  /* Boton */
+  .rad{
+    border-radius: 10px;
+  }
+  
+  .enviar{
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    color: aliceblue !important;
+    background-color: brown !important;
+    margin-inline: 50%;
+  }
+  

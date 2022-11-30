@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="resources/estilos/estilo_contacto.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+		<title>Distribuidora de Café</title>
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<a href="login.html" class="login">Login</a>
+			</div>
+			<img class="logopeque" src="resources/images/logo_small.jpg" alt="DistriCAFÉ">
+		</header>
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="configurador.html">Configura tu café</a>
+			<a href="sobrenosotros.html">Sobre nosotros</a>
+			<a href="contacto.html">Contacto</a>
+		</nav>
+		<main>
+			<section>
+				<h2>Formulario de contacto:</h2>
+				<h3>¿Tienes sugerencias? ¿Alguna incidencia? ¡Infórmanoslo!</h3>
+				<form action="localhost" method="get">
+					<div>
+						<label for="name-contacto">Nombre: </label>
+						<input type="text" name="name-contacto" id="name-contacto" required maxlength="25" size="20" placeholder="Tu nombre">
+					</div>
+				
+					<div>
+						<label for="mail-contacto">Email: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+						<input type="email" name="mail-contacto" id="mail-contacto" required placeholder="Tu e-mail">
+					</div>
+				
+					<div>
+						<label for="sugerencia"></label><br>
+						<textarea class="rad" name="sugerencia" id="sugerencia" cols="50" rows="15" maxlength="1500" required placeholder="Cuéntanos"></textarea>
+					</div>
+				
+					<div><input class="enviar" type="submit" value="Enviar"></div>
+					
+				</section>
+				<section>
+				</form>
+				<h3>¿Prefieres contactar por tu cuenta?</h3>
+				<p><a class="contact" href="mailto:admin@districafe.es">Enviar un correo electrónico</a></p>
+				<p><a class="contact" href="tel:+34666554433">Llamar a +34 666 55 44 33</a></p>
+				<div>
+					<caption>Dirección postal</caption><br><br>
+					<iframe class="rad" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.2710057619124!2d-8.692259584328015!3d42.251384849949694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f62e588cfce69%3A0x378485bfa6edd1be!2sIES%20de%20Teis!5e0!3m2!1ses!2ses!4v1666765398841!5m2!1ses!2ses" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			   </div>
+			</section>
+
+		</main>
+		<footer>
+			<span>Proyecto IAW 2022-2023</span>
+			<span>Gabriel Vega & Carolina Patiño</span>
+		</footer>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

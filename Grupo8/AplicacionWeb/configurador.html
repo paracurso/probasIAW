@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="resources/estilos/estilo_configurador.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+		<title>Distribuidora de Café</title>
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<a href="login.html" class="login">Login</a>
+			</div>
+			<img class="logopeque" src="resources/images/logo_small.jpg" alt="DistriCAFÉ">
+		</header>
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="configurador.html">Configura tu café</a>
+			<a href="sobrenosotros.html">Sobre nosotros</a>
+			<a href="contacto.html">Contacto</a>
+		</nav>
+		<main>
+
+			<form  onsubmit="filtro(event)" id="formulario">
+				<div class="padre_categorias">
+					<a href="#" class="categoria">
+						<label for="var_cafe">Variedad de café: </label><br>
+						<select name="var_cafe" id="variedad">
+						</select>
+					</a>
+	
+					<a href="#" class="categoria">
+						<label for="grano">Grano: </label><br>
+						<select name="grano" id="grano">
+						</select>
+					</a>
+	
+					<a href="#" class="categoria">
+						<label for="tueste">Tueste: </label><br>
+						<select name="tueste" id="tueste">
+						</select>
+					</a>
+	
+					<a href="#" class="categoria" >
+						<label for="descafeinado">Descafeinado: </label><br>
+						<select name="descafeinado" id="DESCA">
+						</select>
+					</a>
+				</div>
+				<span>
+					<br>
+					<button class="enviar">Enviar</button>
+				</span>
+			</form>
+
+			<br>
+			<h2 id="pagina_cafe">Seleccione el producto (Recomendados)</h2>
+			<section id="lista_productos">
+			</section>
+			<div>
+				<a class="enviar" href="#">>></a>
+			</div>
+		</main>
+		<footer>
+			<span>Proyecto IAW 2022-2023</span>
+			<span>Gabriel Vega & Carolina Patiño</span>
+		</footer>
+
+		<script src="./public/js/script.js"></script>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

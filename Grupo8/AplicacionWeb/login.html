@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/estilos/estilo_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <title>Distribuidora de Café</title>
+</head>
+
+<body>
+    <header>
+        <img class="logopeque" src="resources/images/logo_small.jpg" alt="DistriCAFÉ">
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="configurador.html">Configura tu café</a>
+        <a href="sobrenosotros.html">Sobre nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
+
+        <h2>Inicio de sesión</h2>
+
+<!-- FORMULARIO -->
+
+        <section class="form">
+            
+            <div class="tab-content">
+              <div id="signup">   
+                <h2>Registrate gratis</h1>
+                
+                <form action="/" method="post">
+                
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <label>
+                      Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="req"></span>
+                    </label>
+                    <input type="text" required autocomplete="off" />
+                  </div>
+              
+                  <div class="field-wrap">
+                    <label>
+                      Apellido:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="req"></span>
+                    </label>
+                    <input type="text"required autocomplete="off"/>
+                  </div>
+                </div>
+      
+                <div class="field-wrap">
+                  <label>
+                    Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="req"></span>
+                  </label>
+                  <input type="email"required autocomplete="off"/>
+                </div>
+                
+                <div class="field-wrap">
+                  <label>
+                    Contraseña<span class="req"></span>
+                  </label>
+                  <input type="password"required autocomplete="off"/>
+                </div>
+                
+                <button class="enviar" type="submit" class="regis">Registrarte</button>
+                
+                </form>
+      
+              </div>
+              
+              <div id="login">   
+                <h2>¿Ya estas registrado?</h2>
+                
+                <form action="/" method="post">
+                
+                  <div class="field-wrap">
+                  <label>
+                    Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="req"></span>
+                  </label>
+                  <input type="email"required autocomplete="off"/>
+                </div>
+                
+                <div class="field-wrap">
+                  <label>
+                    Contraseña<span class="req"></span>
+                  </label>
+                  <input type="password"required autocomplete="off"/>
+                </div>
+                
+                <button  class="enviar">Log In</button>
+                
+                </form>
+      
+              </div>
+              
+            </div><!-- tab-content -->
+            
+      </section> <!-- /form -->
+    </main>
+    <footer>
+        <span>Proyecto IAW 2022-2023</span>
+        <span>Gabriel Vega & Carolina Patiño</span>
+    </footer>
+
+</body>
+
+</html>
